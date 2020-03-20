@@ -1,0 +1,248 @@
+body {
+    
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #313131;
+}
+
+hr {
+    width: 60%;
+    border-top: 1px solid #dedede;
+    margin: 10vh auto;
+}
+
+.nav {
+    background-color: #222831;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 5vh;
+    letter-spacing: 0.5vw;
+    color: #f7f7f7;
+    margin: auto auto;
+}
+
+.logo {
+    height: 8vh;
+    width: 6vw;
+    margin: auto;
+}
+
+
+.intro {
+    position: relative;
+    background-image: url(images/laptop5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 10vw;
+    flex-direction: column;
+}
+
+
+.header {
+    color: #f7f7f7;
+    font-weight: lighter;
+    width: max-content;
+    margin: 0vh;
+}
+
+
+.intro-p {
+    color: #f7f7f7;
+    font-weight: lighter;
+    width: 50vw;
+    margin: 2vh 0vh 5vh 0vh;
+}
+
+.start-button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.start-button {
+    color: #29a19c;
+    font-size: 3vh;
+    background-color: transparent;
+    height: 70px;
+    width: 200px;
+    border: 2px solid #29a19c;
+    border-radius: 5%;
+}
+
+.start-button:active {
+    border: none;
+    outline: none;
+    transform: scale(0.95);
+    background-color: #29a19c;
+    color: #f7f7f7;
+    border: 2px solid #29a19c;
+}
+
+.start-button:hover {
+    border: 2px solid #29a19c;
+    background-color: #29a19c;
+    color: #f7f7f7;
+}
+
+.start-button:focus {
+    outline:none;
+}
+
+
+.info-container {
+    display: flex;
+    background-size: cover;
+    height: 55vh;
+    padding: 0vh 10% 0vh 10%;
+}
+
+.info-box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: fit-content;
+    margin: 10vh 2vw;
+    padding: 5vh 5vw 5vh 5vw;
+    background-color: #f8f8f8;
+    /*border-radius: 5%;*/
+    /*border: 1px solid #29a19c;*/
+    box-shadow: 5px 5px 10px #414141;
+}
+
+.info-p {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+
+.info-img {
+    height: 150px;
+    width: 150px;
+}
+
+.aim-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 75vh;
+    width: 60vw;
+    margin: 10vh auto auto auto;
+}
+
+.aim-title {
+    font-size: 50px;
+    margin: 10vh auto 5vh auto;
+}
+
+.website-info-container {
+    margin: 10vh;
+}
+
+
+
+.website-info-row {
+    display: flex;
+    background-size: cover;
+    margin: auto auto;
+}
+
+.website-info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh auto;
+}
+
+.website-img {
+    height: 200px;
+    width: 200px;
+    margin: auto auto;
+}
+
+.website-info-p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.scroll-button {
+    opacity:0;
+    position: fixed;
+    color: #f7f7f7;
+    font-weight: bold;
+    right: 30px;
+    bottom: 30px;
+    height: 80px;
+    width: 80px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: #29a19c;
+    box-shadow: 2px 2px 5px #393e46;
+    cursor: pointer;
+}
+
+.scroll-button:active {
+    border: none;
+    outline: none;
+    transform: scale(0.95);
+}
+
+.scroll-button:focus {
+    outline:none;
+    border:none;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #222831;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-row {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-img-row {
+    display: flex;
+    margin: 2vh 5vh 5vh 5vh;
+}
+.contact-img {
+    height: 20px;
+    width: 20px;
+    margin: 2px 1vh;
+}
+
+.contact-p {
+    color: #f7f7f7;
+    margin: auto auto;
+    font-weight: lighter;
+}
+
+.footer-p {
+    margin: auto auto;
+    color: #f7f7f7;
+    font-size: 10px;
+    font-weight: lighter;
+}
